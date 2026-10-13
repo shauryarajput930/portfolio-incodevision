@@ -1,36 +1,46 @@
 # Shaurya Rajput Portfolio
 
-A responsive personal portfolio website built during an IncodeVision frontend-development internship. It highlights a short introduction, skills, project work, and a contact form.
+A responsive personal portfolio website created during the IncodeVision frontend development internship. The site showcases a short introduction, technical skills, featured projects, and a contact section.
 
 ## Preview
 
-Open `portfolio.html` in any modern web browser. No build step or package installation is required.
+Open `index.html` in any modern browser. No build step or package installation is required.
 
 ## Features
 
-- Responsive navigation and layouts
-- Scroll progress indicator, reveal animations, typing effect, and interactive project cards
-- Project thumbnails for the landing page, calculator, and weather app
-- Contact form integration with Web3Forms
+- Responsive single-page layout with a mobile-friendly navigation menu
+- Hero section with a typing animation and call-to-action buttons
+- About section highlighting education, internship experience, and core skills
+- Project showcase cards for portfolio work, landing page, calculator, and weather app
+- Scroll progress indicator, reveal-on-scroll animations, and subtle hover effects
+- Contact form wired to Web3Forms for message submissions
 
 ## Project structure
 
 ```text
 .
 |-- assets/
+|   |-- me.jpg
 |   |-- landing-page-visual.png
 |   |-- calculator-app-visual.png
 |   `-- weather-app-visual.png
-|-- me.jpg
-`-- portfolio.html
+|-- index.html
+`-- README.md
 ```
 
 ## Customization
 
-- Replace `me.jpg` with your own profile photo if needed.
-- Update the project descriptions and links in the `#projects` section of `portfolio.html`.
-- For contact form delivery, replace the hidden `access_key` field with your own Web3Forms access key.
+- Replace `assets/me.jpg` with your own profile photo if needed.
+- Update the text, skills, and project details in the relevant sections of `index.html`.
+- Change the social links, email address, and location in the contact section.
+- Replace the hidden `access_key` value in the contact form with your own Web3Forms access key to enable form delivery.
 
-## Technologies
+## Technologies used
 
-HTML5, CSS3, and JavaScript.
+- HTML5
+- CSS3
+- JavaScript
+
+## Notes
+
+This portfolio is designed as a clean static website and can be hosted on GitHub Pages or any other static hosting service.
